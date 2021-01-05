@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Tablecloth</title>
+
+<!-- paste this code into your webpage -->
+<link href="tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- end -->
+
+<style>
+
+body{
+	margin:0;
+	padding:0;
+	background:#f1f1f1;
+	font:70% Arial, Helvetica, sans-serif; 
+	color:#555;
+	line-height:150%;
+	text-align:left;
+}
+a{
+	text-decoration:none;
+	color:#057fac;
+}
+a:hover{
+	text-decoration:none;
+	color:#999;
+}
+h1{
+	font-size:140%;
+	margin:0 20px;
+	line-height:80px;	
+}
+h2{
+	font-size:120%;
+}
+#container{
+	margin:0 auto;
+	width:680px;
+	background:#fff;
+	padding-bottom:20px;
+}
+#content{margin:0 20px;}
+p.sig{	
+	margin:0 auto;
+	width:680px;
+	padding:1em 0;
+}
+form{
+	margin:1em 0;
+	padding:.2em 20px;
+	background:#eee;
+}
+</style>
+
+</head>
+
+<body>
+		<table width = "100%">
+			<font font size="5"><div align="center">デモ用ＷＥＢコンテンツ一覧　</div></font>
+			<font font size="3" color="#ff0077"><div style="line-height:18px;">
+			■スマートレシートプリンター内に登録されている本デモ用Webコンテンツは販促機材のみに登録されており、実際の製品には登録されていませんのでご了承ください。<BR>
+			■本デモ用Webコンテンツで表示される画面を無断で転載、複写、複製することは固くお断りします。<BR>
+			■本デモ用Webコンテンツに関するお問い合わせは、エプソン担当営業までご連絡ください。
+			</div><font font size="5">
+						<tr class="even">
+				<th rowspan=2 width="220">コンテンツ<BR>(下のリンクをタッチ下さい)</th>
+				<th rowspan=2 width="240">出力帳票</th>
+				<th rowspan=2 width="110">印刷方式</th>
+				<th colspan=2 width="130">Canvas機能</th>
+				<th rowspan=2 width="100">バーコード印刷</th>
+				<th rowspan=2>対応紙幅</th>
+			</tr>
+			<tr bgcolor="#00ccff"  class="even">
+				<th>手書き</th>
+				<th>画像印刷</th>
+			</tr>
+			<tr class="odd">
+				<td rowspan=2 ><a href="./webapp/OFSC-Print/epsonsample.html">飲食店向けオーダーエントリー ※1</a></td>
+				<td rowspan=1  class="center">レシート</td>
+				<td rowspan=2>OFSC-Print ※4</td>
+				<td rowspan=1 >－</td>
+				<td rowspan=1 >－</td>
+				<td rowspan=1 ><font font size='6'>○</font></td>
+				<td rowspan=2>80/58mm</td>
+			</tr>
+			<tr  class="even">
+				<td rowspan=1 class="center">調理指示伝票・ゲスト伝票 ※2</td>
+				<td rowspan=1 >－</td>
+				<td rowspan=1 >－</td>
+				<td rowspan=1 ><font font size='6'>○</font></td>
+			</tr>
+			<tr  class="odd">
+				<td rowspan=2 ><a href="./webapp/ePOS/index.html">飲食店向け受付・クーポン ※1</a></td>
+				<td rowspan=1 class="center">受付番号票</td>
+				<td rowspan=1>ePOS-Print ※5</td>
+				<td rowspan=1 >－</td>
+				<td rowspan=1 >－</td>
+				<td rowspan=1 >－</td>
+				<td rowspan=2>80mm</td>
+			</tr>
+			<tr class="even">
+				<td rowspan=1 class="center">クーポン</td>
+				<td rowspan=1>Canvas-Print ※6</td>
+				<td rowspan=1 >－</td>
+				<td rowspan=1 ><font font size='6'>○</font></td>
+				<td rowspan=1 >※3</td>
+			</tr>
+		</table></font><div style="line-height:20px;">
+		<font font size='3'  color="#000000">
+		※1　当該Webコンテンツのみサンプルプログラムとしてエプソンのホームページからダウンロード可能です。</font>
+		<font font size='4' color="#000000"><B>        <a href="http://partner.epson.jp/support/details/contents089/">http://partner.epson.jp/support/details/contents089/</B></A></font><BR>
+		<font font size='3' color="#000000">※2　「調理指示伝票」「ゲスト伝票」の発行には、別途TM-T90KP(キッチンプリンター)をご用意頂き、WebConfigユーティリティの<BR>        デバイス設定でフロアプリンター(FloorPrinter)、キッチンプリンター(KitchenPrinter)を登録する必要があります。<BR>
+		※3　バーコードの印刷はイメージ印刷になります。読み取り精度は保証いたしかねますのでご了承ください。<BR>
+		※4　外食産業のシステム機器接続標準化を目的とした規格に準拠した印刷方式です。プリンター内に登録した印刷レイアウト情報の<BR>        スタイルシートと、送信されてきた取引情報を含むXMLデータを合成し印刷します。 POSやオーダーエントリーといったシステ<BR>        ムの構築に適した方式です。<BR>
+		※5　ESC/POSコマンドをタグ化したもので、プリンター機能を最大限に発揮します。ブラウザフォントや画像をイメージ化しレイア<BR>        ウト情報を含めXMLデータとして送信し印刷します。文字やレイアウトの自由度が高く、画像データの印刷にも適した方式です。<BR>
+		※6　HTML5 Canvasで描画したイメージを印刷します。<BR>
+		　　　　　　　　　　　　　　　　　　　　　　　　          　　　　　　　　　　　　　　　　　　　　　　             最終更新日2021.1.6<BR>
+</font></div>
+</body>
+</html>
